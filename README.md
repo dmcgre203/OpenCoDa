@@ -1,7 +1,8 @@
 # OpenCoDa
-# Code for running regression tool on local Shiny Server
 
-Brief Guidance on using Linear Regression Tool
+This code can be run within RStudio by users wishing to use the regression tool on a local Shiny Server.
+
+# Brief Guidance on using Linear Regression Tool
 
 DATA UPLOAD
 
