@@ -11,14 +11,17 @@ Once the data is uploaded it will display on the right hand side of the screen. 
 If you just want to try out the tool without using your own data there is a simple dummy dataset below.
 
 IDENTIFYING DATA
+
 The next stage is to identify the response variable / outcome in your data, the standard covariates / confounding variables you would like to include, and last (but not least) the compositional variables in your data.
 You will need to indicate continuous and categorical variables separately.
 
 MODEL SELECTION - STAGE ONE
+
 The tool includes some limited functionality for selecting covariates for inclusion (AIC, and likelihood ratio tests on the effect of dropping individual variables) displayed on the second tab.
 Changing the selected covariates will cause these calculations to update automatically.
 
 ILR COORDINATES
+
 Once you have identified the compositional variables, and given the tool a little time to compute, it will provide a list of the available transformed CoDa variables for carrying out the regression.
 These are calculated using the "robcompositions" package in R.
 We have used a similar naming convention to robcompositions:
@@ -29,5 +32,6 @@ The results of the full regression analysis, including covariates are shown on t
 The analysis is fuller than the stage one model selection, but for many cases more testing may be advisable.
 
 MODEL SELECTION - STAGE TWO
+
 It is straightforward to switch between different rotations, or indeed omit components entirely (which can be a valuable method for better understanding what is driving a response). 
 The calculations will update automatically each time the ilr coordinates are changed.
